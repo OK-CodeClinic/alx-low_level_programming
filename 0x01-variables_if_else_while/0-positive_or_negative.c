@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* more headers goes there */
 
-/* main - prints a random number and states whether
+/**
+ * main - prints a random number and states whether
  * it is possitive, negative or zero
  *
  *
