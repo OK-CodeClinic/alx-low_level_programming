@@ -7,7 +7,8 @@
 /* betty style doc for function main goes there */
 
 /**
- * main - prints a random number and states whether the number stored in the variable n is positive or negative
+ * main - prints a random number and states whether the number
+ *	 stored in the variable n is positive or negative
  * Return : Always 0
  *
  */
