@@ -6,18 +6,16 @@ nclude "main.h"
  */
 void rev_string(char *s)
 {
-	int n = 0;
-	int i, j;
-	char l;
+	int len = 0, index = 0;
+	char tmp;
 
-	while (s[n] != '\0')
-		n++;
-	j = n - 1;
-	for (i = 0; i < j; i++)
+	while (s[index++])
+		len++;
+	for (index = len - 1; index >= len / 2; index--)
 	{
-		l = s[i];
-		s[i] = s[j];
-		s[j] = l;
-		j--;
+		tmp = s[index];
+		s[index] = s[len - index - 1];
+		s[len - index - 1] = tmp;
 	}
+
 }
