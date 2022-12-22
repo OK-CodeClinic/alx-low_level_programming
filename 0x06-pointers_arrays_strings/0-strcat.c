@@ -6,7 +6,7 @@
  * @src: source of concatenated text
  * Return: results of concatenated text
  */
-char *strcat(char *dest, const char *src)
+char *strcat(char *dest, char *src)
 {
 	char *s = dest;
 
