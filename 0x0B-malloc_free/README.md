@@ -1,5 +1,5 @@
 
-# C - argc, argv
+# C - malloc, free
 
 This project gives a general knowledge;
 
