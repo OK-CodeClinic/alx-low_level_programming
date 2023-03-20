@@ -1,0 +1,40 @@
+# C - Dynamic libraries
+
+#### This project gives a general knowledge about:
+1. What is a dynamic library, how does it work, how to create one, and how to use it
+2. What is the environment variable $LD_LIBRARY_PATH and how to use it
+3. What are the differences between static and shared libraries
+4. Basic usage ```nm```, ```ldd```, ```ldconfig```
+5. How to create dynamic libraries on Linux
+6. What is difference between Dynamic and Static library.
+
+## Author
+
+- [Kehinde Omokungbe](https://www.github.com/OK-CodeClinic)
+## Requirements
+### C
+- Allowed editors: vi, vim, emacs
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
+- You are allowed to use _putchar
+- You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+- The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
+- Don’t forget to push your header file
+
+### Bash Script
+- Allowed editors: ```vi```, ```vim```, ```emacs```
+- All your scripts will be tested on Ubuntu 20.04 LTS
+- All your files should end with a new line
+- The first line of all your files should be exactly ```#!/bin/bash```
+- A README.md file, at the root of the folder of the project, describing what each script is doing
+- All your files must be executable
+## Coding Style
+All codes must obey the ALX betty documentation coding style
+![Logo](data:image/png;base64,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)
+
+
