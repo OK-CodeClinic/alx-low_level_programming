@@ -1,3 +1,6 @@
 [submodule "0x11.C-printf/printf"]
 	path = 0x11.C-printf/printf
 	url = https://github.com/clementigbinoba/printf
+[submodule "monty"]
+	path = monty
+	url = ./monty
