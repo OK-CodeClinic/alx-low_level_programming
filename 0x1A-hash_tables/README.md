@@ -105,7 +105,7 @@ Note that all dictionaries are not implemented using hash tables and there is a 
 
 ### **Advanced Tasks**
 
-* **7. $ht['Betty'] = 'BestSchool'**
+* **7. $ht['Betty'] = 'Cool'**
   * [100-sorted_hash_table.c](./100-sorted_hash_table.c): C functions that define a sorted
   hash table `shash_table_t`.
     * Identical in function to a `hash_table_t` hash table except key/value
