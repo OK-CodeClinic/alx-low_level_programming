@@ -4,3 +4,6 @@
 [submodule "monty"]
 	path = monty
 	url = ./monty
+[submodule "binary_trees"]
+	path = binary_trees
+	url = https://github.com/OK-CodeClinic/binary_trees
